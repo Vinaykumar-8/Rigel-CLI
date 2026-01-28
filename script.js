@@ -9,7 +9,7 @@ const send =(callback)=>{
   
   if(input.value.trim()!==""){
     input.value="";
-    chat.value=`User Input: \n ${val}`;
+    chat.value=` User Input: \n ${val}`;
     chat.scrollTop=chat.scrollHeight;
   }
   callback(val);
@@ -49,6 +49,6 @@ const output =(val)=>{
     out="Sorry, we do not have information regarding that";
   }
   chat.value+="\n";
-  chat.value+=`Response from RIGEL:
+  chat.value+=` Response from RIGEL:
   \n ${out} \n ============================`;
 };
