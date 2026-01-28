@@ -9,7 +9,7 @@ const send =(callback)=>{
   
   if(input.value.trim()!==""){
     input.value="";
-    chat.value=` User Input: \n ${val}`;
+    chat.value=` User Input:\n ${val}`;
     chat.scrollTop=chat.scrollHeight;
   }
   callback(val);
