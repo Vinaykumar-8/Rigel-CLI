@@ -1,3 +1,21 @@
+const mode=()=>{
+  const body=document.getElementById('body');
+  if(body.style.backgroundColor==="#333" || body.style.backgroundColor==="rgb(51,51,51)"){
+    body.style.backgroundColor="#fff";
+    const footer=document.getElementById('footer');
+    const text =document.getElementById('textA');
+    text.style.borderColor="#006400";
+    footer.style.backgroundColor="#006400"
+  }
+  else{
+    body.style.backgroundColor="#333";
+    const footer= document.getElementById('footer');
+    const text=document.getElementById('textA');
+    text.style.borderColor="#00F0FF";
+    footer.style.backgroundColor="#00F0FF";
+  }
+};
+
 const handleFunction =()=>{
   send(output);
 };
@@ -25,7 +43,15 @@ const output =(val)=>{
     out="Hello User Welcome To RIGEL_CLI";
   }
   else if(val==="HTML" || val==="HYPERTEXT LANGUAGE"){
-    out=`*  HTML stands for HyperText Markup Language.\n-------------------------------------------\n -It is used to define the structure of the web pages and its components.\n-----------------------------\n -We can even use it define the dynamic web pages when used with CSS and Javascript.\n----------------------------------\n -It is a tag based language which uses pre-defined tags for defining the components. \n-------------------------------\n -The very first line of the html file is <!DOCTYPE html> and it can be saved using the .html file extension.`;
+    out=`*  HTML stands for HyperText Markup Language.
+    ------------------------------------
+    -It is used to define the structure of the web pages and its components.
+    ------------------------------------
+    -We can even use it define the dynamic web pages when used with CSS and Javascript.
+    ------------------------------------
+    -It is a tag based language which uses pre-defined tags for defining the components.
+    ------------------------------------
+    -The very first line of the html file is <!DOCTYPE html> and it can be saved using the .html file extension.`;
   }
   else if(val==="CSS" || val==="STYLE SHEETS"){
     out=`*  CSS stands for Cascading-Style Sheets.
