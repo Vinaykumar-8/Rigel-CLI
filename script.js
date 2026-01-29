@@ -35,7 +35,7 @@ const output =(val)=>{
     -One can apply CSS to html elements in three distinct ways:
       1.Internal CSS= Using <style> tag inside the head section of the HTML file and using the selectors name to apply style.
       2.Inline CSS= Using style attribute inside the opening tag of the element.
-      3.External CSS= In this type of CSS we create an external file woth .css extension and declare all the styles within it, and then we use the <link> tag is inside the head section of HTML file to use tye external css file in it.
+      3.External CSS= In this type of CSS we create an external file with .css extension and declare all the styles within it, and then we use the <link> tag is inside the head section of HTML file to use tye external css file in it.
     ---------------------------------------------`
   }
   else if(val==="CLEAR"){
