@@ -1,6 +1,7 @@
+let darkMode=true;
 const mode=()=>{
   const body=document.getElementById('body');
-  if(body.style.backgroundColor==="#333" || body.style.backgroundColor==="rgb(51,51,51)"){
+  if(darkMode){
     body.style.backgroundColor="#fff";
     const footer=document.getElementById('footer');
     const text =document.getElementById('textA');
@@ -14,6 +15,7 @@ const mode=()=>{
     text.style.borderColor="#00F0FF";
     footer.style.backgroundColor="#00F0FF";
   }
+  darkMode=!darkMode;
 };
 
 const handleFunction =()=>{
@@ -22,7 +24,7 @@ const handleFunction =()=>{
 
 const send =(callback)=>{
   let chat=document.getElementById('textA');
-  input=document.getElementById('input');
+  let input=document.getElementById('input');
   let val=input.value;
   
   if(input.value.trim()!==""){
