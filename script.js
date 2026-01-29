@@ -28,13 +28,19 @@ const output =(val)=>{
     out=`*  HTML stands for HyperText Markup Language.\n-------------------------------------------\n -It is used to define the structure of the web pages and its components.\n-----------------------------\n -We can even use it define the dynamic web pages when used with CSS and Javascript.\n----------------------------------\n -It is a tag based language which uses pre-defined tags for defining the components. \n-------------------------------\n -The very first line of the html file is <!DOCTYPE html> and it can be saved using the .html file extension.`;
   }
   else if(val==="CSS"){
-    out=`*  CSS stands for Cascading-Style Sheets.\n----------------------------------------------\n -It is used to style the HTML elements.\n-----------------------------\n -One can apply CSS to html elements in three distinct ways: \n 1.Internal CSS= Using <style> tag inside the head section of the HTML file and using the selectors name to apply style. \n 2.Inline CSS= Using style attribute inside the opening tag of the element. \n 3.External CSS= In this type of CSS we create an external file woth .css extension and declare all the styles within it, and then we use the <link> tag is inside the head section of HTML file to use tye external css file in it.\n-----------------------------------.
-    
-    `
+    out=`*  CSS stands for Cascading-Style Sheets.
+    ----------------------------------------------
+    -It is used to style the HTML elements.
+    ----------------------------------------------
+    -One can apply CSS to html elements in three distinct ways:
+      1.Internal CSS= Using <style> tag inside the head section of the HTML file and using the selectors name to apply style.
+      2.Inline CSS= Using style attribute inside the opening tag of the element.
+      3.External CSS= In this type of CSS we create an external file woth .css extension and declare all the styles within it, and then we use the <link> tag is inside the head section of HTML file to use tye external css file in it.
+    ---------------------------------------------`
   }
   else if(val==="CLEAR"){
     chat.value=`RIGEL HAS CLEANED THE AREA
-    ------------------------------`;
+    --------------------------------------------`;
   }
   else if(val==="HELP"){
     out=`Here are sone of the keywords you can use:
