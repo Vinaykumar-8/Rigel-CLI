@@ -95,8 +95,11 @@ const output =(val)=>{
     4.Hello (For Greetings).
     5.Explain (To get RIGEL'S introduction).`;
   }
-  else if(val==="time"){
+  else if(val==="TIME"){
     out=new Date().toUTCString();
+  }
+  else if(val==="DATE){
+    out= new Date();
   }
   else{
     out="Sorry, we do not have information regarding that";
