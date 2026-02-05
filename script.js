@@ -6,7 +6,7 @@ const mode=()=>{
     const footer=document.getElementById('footer');
     const text =document.getElementById('textA');
     text.style.borderColor="#006400";
-    footer.style.backgroundColor="#006400"
+    footer.style.backgroundColor="#006400";
   }
   else{
     body.style.backgroundColor="#333";
@@ -64,7 +64,7 @@ const output =(val)=>{
       1.Internal CSS= Using <style> tag inside the head section of the HTML file and using the selectors name to apply style.
       2.Inline CSS= Using style attribute inside the opening tag of the element.
       3.External CSS= In this type of CSS we create an external file with .css extension and declare all the styles\n      within it, and then we use the <link> tag is inside the head section of HTML file to use tye external css file in it.
-    ---------------------------------------------`
+    ---------------------------------------------`;
   }
   else if(val==="JS" || val==="JAVASCRIPT"){
     out=` * JS stands for Javascript.
@@ -80,7 +80,7 @@ const output =(val)=>{
     -It has the file extension .js .
     ---------------------------------
     -Also it is a dynamically typed language hence it automatically fetches the data type of the value\n     assigned to the variable.
-    -------------------------------------------`
+    -------------------------------------------`;
   }
   else if(val==="CLEAR"){
     out=`RIGEL HAS CLEANED THE AREA
@@ -106,7 +106,7 @@ const output =(val)=>{
   else if(val==="TIME"){
     out=new Date().toUTCString();
   }
-  else if(val==="DATE){
+  else if(val==="DATE"){
     out= new Date();
   }
   else{
