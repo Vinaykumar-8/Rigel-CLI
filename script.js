@@ -95,6 +95,14 @@ const output =(val)=>{
     4.Hello (For Greetings).
     5.Explain (To get RIGEL'S introduction).`;
   }
+  else if(val==="INDIA"){
+    out=`India is an asian country with a legendary history.
+      -Also called the Golden Bird and the Land of Gods.
+      -India is famous for its innovative minds and highly advanced ancient civilization.
+      -Indian literatures like Ramayana and Mahabharata are the world's most famous literatures.
+      -India celebrates Independence day on 15 August.
+      -India celebrates Republic day on 26 August.`
+  }
   else if(val==="TIME"){
     out=new Date().toUTCString();
   }
