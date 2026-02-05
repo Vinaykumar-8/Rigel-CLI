@@ -101,7 +101,7 @@ const output =(val)=>{
       -India is famous for its innovative minds and highly advanced ancient civilization.
       -Indian literatures like Ramayana and Mahabharata are the world's most famous literatures.
       -India celebrates Independence day on 15 August.
-      -India celebrates Republic day on 26 August.`
+      -India celebrates Republic day on 26 August.`;
   }
   else if(val==="TIME"){
     out=new Date().toUTCString();
